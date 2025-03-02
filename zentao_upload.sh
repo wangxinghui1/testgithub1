@@ -3,7 +3,7 @@
 # 配置禅道 API
 ZENTAO_URL="http://localhost:8090/api.php/v1"
 TOKEN="$ZENTAO_TOKEN"  # 从环境变量读取 Token
-FILE_PATH="dist/printforloop-0.1.tar.gz"  # 你的文件路径
+FILE_PATH="dist/printforloop-0.2.tar.gz"  # 你的文件路径
 
 # 确保文件存在
 if [[ ! -f "$FILE_PATH" ]]; then
