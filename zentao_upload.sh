@@ -36,7 +36,7 @@ fi
 echo "✅ 上传成功，文件 ID: $FILE_ID"
 
 # 关联到任务
-TASK_ID="123"  # 你的任务 ID
+TASK_ID="1"  # 你的任务 ID
 TASK_RESPONSE=$(curl -s -X POST "$ZENTAO_URL/tasks/$TASK_ID/files" \
     -H "Authorization: Bearer $TOKEN" \
     -H "Content-Type: application/json" \
