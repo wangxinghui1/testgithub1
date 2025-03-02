@@ -2,7 +2,8 @@
 
 # 配置禅道 API
 ZENTAO_URL="http://localhost:8090/api.php/v1"
-TOKEN="$tokenchan"  # 从环境变量读取 Token
+# TOKEN="$tokenchan"  # 从环境变量读取 Token
+TOKEN="65df48f1d49c73b7e9fa4fc5fab9d33f"
 # 动态获取最新 tar.gz 文件
 FILE_PATH=$(ls dist/printforloop-*.tar.gz | sort -V | tail -n1)
 # 确保文件存在
