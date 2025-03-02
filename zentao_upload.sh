@@ -2,7 +2,6 @@
 
 # 配置禅道 API
 ZENTAO_URL="http://localhost:8090/api.php/v1"
-credentialsId='zentaotoken'
 TOKEN="$ZENTAO_TOKEN"  # 从环境变量读取 Token
 # 动态获取最新 tar.gz 文件
 FILE_PATH=$(ls dist/printforloop-*.tar.gz | sort -V | tail -n1)
