@@ -1,0 +1,6 @@
+curl -X POST "http://localhost:8090/api.php/v1/tokens" \
+     -H "Content-Type: application/json" \
+     -d '{
+       "account": "autoadmin",
+       "password": "Wxj686x"
+     }'
