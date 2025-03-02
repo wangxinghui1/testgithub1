@@ -1,0 +1,15 @@
+$headers = @{
+    "Content-Type" = "application/json"
+}
+
+$body = @{
+    "account" = "autoadmin"
+    "password" = "Wxj686x"
+} | ConvertTo-Json
+
+$response = Invoke-RestMethod -Uri "http://localhost:8090/api.php/v1/tokens" `
+                              -Method Post `
+                              -Headers $headers `
+                              -Body $body
+
+$response
